@@ -1,7 +1,10 @@
+import Navbar from "@/components/Navbar";
 
 
 export default function Home() {
   return (
-    <div>Home to Malum Gadget</div>
+    <main>
+      <Navbar />
+    </main>
   )
 }
