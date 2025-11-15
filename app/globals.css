@@ -115,7 +115,7 @@ body {
   }
 
   #hero {
-    @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+    @apply h-fit lg:h-[80vh] col-center mt-20 lg:mt-20 2xl:mt-[7vh];
 
     div {
       @apply relative z-10 col-center lg:translate-y-16;
@@ -138,7 +138,7 @@ body {
     }
 
     p {
-      @apply lg:h3-semibold base-semibold;
+      @apply lg:h3-semibold base-semibold text-gray-400;
     }
   }
 
