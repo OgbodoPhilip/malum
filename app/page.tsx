@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import ProductViewer from "@/components/ProductViewer";
+
 import { ScrollTrigger,SplitText } from "gsap/all";
 import gsap from "gsap";
 import ShowCase from "@/components/ShowCase";
@@ -12,7 +12,7 @@ export default function Home() {
     <main className="md:mt-20">
       <Navbar />
       <Hero/>
-      <ProductViewer/>
+   
       <ShowCase/>
     </main>
   )
