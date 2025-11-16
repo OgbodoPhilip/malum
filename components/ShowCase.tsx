@@ -30,8 +30,8 @@ useGSAP(()=>{
 
   return (
     <section id="showcase">
-      <div className="media">
-        <video src="/videos/game.mp4" loop muted autoPlay playsInline/>
+      <div className="media" >
+        <video src="/videos/game.mp4" loop muted autoPlay playsInline className="p-8 rounded-2xl"/>
          {/* <div className="mask md:hidden">
           <Image src="/mask-logo.svg" width={300} height={200} alt="man" className="object-center full h-full"
         />
