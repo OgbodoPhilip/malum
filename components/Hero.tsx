@@ -16,8 +16,8 @@ export default function Hero() {
     <section id="hero">
       <div>
         <h1>MacBook Pro</h1>
-        <Image src="/title.png" alt="mac" width={700} height={700} />
-        <p>Supercharged by M2 Pro and M2 Max.</p>
+        <Image src="/title.png" alt="mac" width={800} height={800} />
+        <p className="mb-4">Supercharged by M2 Pro and M2 Max.</p>
         <button>Learn more</button>
       </div>
 
@@ -29,8 +29,7 @@ export default function Hero() {
         playsInline
         loop
       />
-      <button>Buy</button>
-      <p>From $3000 or $4000 for 12 months</p>
+     
     </section>
   );
 }
